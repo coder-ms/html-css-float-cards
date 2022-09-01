@@ -55,14 +55,13 @@ header h1{
     text-align: left;
     width: calc(80% / 3);
     margin: 0 20px 20px;
-    /*float: left;*/
+    float: left;
     border: 1px solid rgb(15, 14, 23);
     box-shadow: 5px 10px #eeeeee;
 }
 img{
-    width: 120px;
+    width: 100px;
     text-align: left;
-    float: left;
 }
 
 /* PARTE SCRITTA INTERNO BOX */
