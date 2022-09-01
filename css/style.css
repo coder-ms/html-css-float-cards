@@ -1,0 +1,81 @@
+/* UTILITY */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Fredoka;
+}
+
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*GENERAL*/
+main {
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+}
+body {
+    background: white;
+}
+
+/*HEADER*/
+header h1{
+    color: #E53170;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.parag p{
+    text-align: center;
+    margin-bottom: 50px;
+    color: black;
+}
+
+/* BOX CON IMMAGINE*/
+#container{
+    margin: 0 auto;
+    width: 100%;
+    min-width: 1200px;
+    padding: 20px 50px; 
+}
+.box{
+    padding-right: 100px;  
+    background-color: rgb(15, 14, 23);  
+}
+.col{
+    text-align: left;
+    width: calc(80% / 3);
+    margin: 0 20px 20px;
+    /*float: left;*/
+    border: 1px solid rgb(15, 14, 23);
+    box-shadow: 5px 10px #eeeeee;
+}
+img{
+    width: 120px;
+    text-align: left;
+    float: left;
+}
+
+/* PARTE SCRITTA INTERNO BOX */
+h3{
+   color: #FF8907;
+   text-align: center;
+   margin-bottom: 1px;
+}
+p{
+    color: white;
+    text-align: left;
+}
+
+
+
+
