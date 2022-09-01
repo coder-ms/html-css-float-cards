@@ -43,42 +43,42 @@ header h1{
 /* BOX CON IMMAGINE*/
 #container{
     margin: 0 auto;
-    width: 100%;
+    width: 80%;
     min-width: 1200px;
     padding: 20px 50px; 
 }
+
+.info{
+    padding: 15px;
+    display: inline-block;
+}
+
 /* CONTENITORE */
 .col{
     text-align: left;
     width: calc(80% / 3);
-    margin: 0 20px 20px;
-    float: left;
+    margin: 0 30px 40px 0;
     border: 1px solid rgb(15, 14, 23);
     box-shadow: 5px 10px #eeeeee;
-}
-.box{
-    padding-right: 100px;    
+    background-color: rgb(15, 14, 23);
+    display: inline-block;
 }
 img{
     width: 100px;
-    text-align: left;
-}
-.info{
-    background-color: rgb(15, 14, 23);
-    
+    float: left;
 }
 
 /* PARTE SCRITTA INTERNO BOX */
 h3{
-   color: #FF8907;
    text-align: center;
    margin-bottom: 1px;
+   display: inline-block;
 }
-p{
+h3, .job{
     color: white;
-    text-align: left;
 }
-
-
+.mail{
+    color: cyan;
+}
 
 
