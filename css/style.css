@@ -76,6 +76,7 @@ h3{
 }
 h3, .job{
     color: white;
+    margin-bottom: 5px;
 }
 .mail{
     color: cyan;
