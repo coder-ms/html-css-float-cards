@@ -47,10 +47,7 @@ header h1{
     min-width: 1200px;
     padding: 20px 50px; 
 }
-.box{
-    padding-right: 100px;  
-    background-color: rgb(15, 14, 23);  
-}
+/* CONTENITORE */
 .col{
     text-align: left;
     width: calc(80% / 3);
@@ -59,9 +56,16 @@ header h1{
     border: 1px solid rgb(15, 14, 23);
     box-shadow: 5px 10px #eeeeee;
 }
+.box{
+    padding-right: 100px;    
+}
 img{
     width: 100px;
     text-align: left;
+}
+.info{
+    background-color: rgb(15, 14, 23);
+    
 }
 
 /* PARTE SCRITTA INTERNO BOX */
